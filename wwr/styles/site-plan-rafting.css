@@ -6,8 +6,8 @@
     --accent1-color: #000000 ;
     --accent2-color: #b80f00 ;
 
-    --heading-font: sans-serif;
-    --paragraph-font: r;
+    --heading-font: 'Ubuntu', sans-serif;
+    --paragraph-font: 'Rubix', sans-serif;
 
     --nav-background-color: lightblue;
     --nav-link-color: black;
@@ -21,10 +21,11 @@ body    {
     padding: 20px;
 }
 
-h1, h2, h3, h4, h5, h6, {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent1-color);
 }
+    
 
 header {
     padding: 20px;
