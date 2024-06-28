@@ -40,14 +40,16 @@ p {
 aside {
     width: 20rem;
     text-align: center;
+    position: relative;
 }
 
 aside h2 {
-    position: relative;
-    top: 25px;
-    /*left: ;*/
+    position: absolute;
+    top: 20px;
+    left: 105px;
     color: #ffffff;
-    text-decoration: underline;
+    
+
 
 }
 
