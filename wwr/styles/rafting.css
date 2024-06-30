@@ -15,8 +15,13 @@
     --nav-hover-background-color: var(--secondary-color);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    max-width: 80%;
+    max-width: 960px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -29,7 +34,26 @@ p {
     color: var(--accent1-color);
 }
 
-.sociallinks a:link, a:visited, a:hover, a:active {
+.sociallinks a:link, a:visited, a:active, a:hover {
     text-decoration: none;
+}
+
+.menu a:hover {
+    background-color: var(--accent1-color);
+    color: #ffffff;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
