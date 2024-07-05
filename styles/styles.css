@@ -7,26 +7,38 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 /*hello this is a comment just for practice*/
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 main {
     max-width: 840px;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    margin: 1rem;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: 1px solid steelblue;
+
 }
 
 main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
+    margin: 1rem;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
@@ -34,13 +46,16 @@ main img {
 
 p {
     padding: 0;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: justify;
 }
 
 aside {
     width: 20rem;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
@@ -48,9 +63,6 @@ aside h2 {
     top: 20px;
     left: 105px;
     color: #ffffff;
-    
-
-
 }
 
 aside img {
@@ -64,7 +76,17 @@ footer {
     text-align: center;
 }
 
+header, .grid, footer {
+    max-width: 840px;
+    margin: auto;
+}
+
 /* Class Selectors */
+
+.grid {
+    display: grid;
+    align-items: center;
+}
 
 .box {
     margin: 1rem;
