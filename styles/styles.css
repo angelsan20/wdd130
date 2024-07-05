@@ -77,8 +77,8 @@ footer {
 }
 
 header, footer, .grid {
-    max-width: 840px;
     margin: 0;
+    max-width: 840px;
 }
 
 /* Class Selectors */
