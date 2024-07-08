@@ -34,6 +34,7 @@ header img {
 body {
     max-width: 1024px;
     margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.2);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -136,6 +137,49 @@ footer img {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: center;
+    align-items: center;
+}
+
+.history h2 {
+    position: relative;
+    top: -100px;
+    grid-column: 2/3;
+    grid-row: 1;
+}
+
+.p1-history {
+    grid-column: 0/1;
+    grid-row: 1/2;
+}
+
+.p2-history {
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.history img {
+    grid-column: 2/3;
+    grid-row: 1;
+    max-width: 150px;
+
+}
+
+.adventure {
+    display: grid;
+    align-items: center;
+    gap: 5px;
+}
+
+.adventure h2{
+    display: flex;
+    grid-column: 1/6;
+    grid-row: 1/2;
+    justify-content: center;
+}
+
+.adventure img{
+    width: 150px;
+    height: 100px;
 }
 
 
