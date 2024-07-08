@@ -15,8 +15,24 @@
     --nav-hover-background-color: var(--secondary-color);
 }
 
+
+header {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 190px 1fr;
+    grid-template-rows: 190px;
+    font-family: var(--heading-font);
+    max-width: 1024px;
+}
+
+header img {
+    margin: 6px;
+    max-width: 170px;
+    max-height: 170px;
+}
+
 body {
-    max-width: 960px;
+    max-width: 1024px;
     margin: 0 auto;
 }
 
@@ -30,8 +46,36 @@ p {
     color: var(--accent1-color);
 }
 
-.sociallinks a:link, a:visited, a:active, a:hover {
-    text-decoration: none;
+footer {
+    max-width: 1024px;
+    margin: 1rem;
+    border-top: 1px solid #000000;
+    display: grid;
+    grid-template-columns: 1fr 20px;
+    grid-template-rows: 1fr;
+    padding: 2px;
+
+}
+
+footer, p, nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer img {
+    margin: 5px;
+}
+
+
+/* Class Selectors */
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--secondary-color);
 }
 
 .menu a {
@@ -39,13 +83,17 @@ p {
     text-decoration: none;
     font-size: 20px;
 }
+
 .menu a:hover {
     background-color: var(--accent1-color);
     color: #ffffff;
+    padding: 15px;
 }
 
 .hero {
-	position: relative; 
+	position: relative;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .hero p{
@@ -62,18 +110,36 @@ p {
 }
 
 .hero article {
-	position: absolute;
+	display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
 	left: 140px;
-    top: 256px;
+    top: 280px;
     width: 720px;
+    font-size: 15px;
     height: auto;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 10px;
 }
 
 .hero article img{
+    display: flex;
     float: right;
     width: 180px;
-    height: auto; 
+    height: auto;
+    margin: 3px; 
     
 }
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+
+.sociallinks a:link, a:visited, a:active, a:hover {
+    text-decoration: none;
+}
+
