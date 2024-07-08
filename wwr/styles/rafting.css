@@ -34,7 +34,6 @@ header img {
 body {
     max-width: 1024px;
     margin: 0 auto;
-    background-color: rgba(0, 255, 255, 0.2);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,15 +46,27 @@ p {
     color: var(--accent1-color);
 }
 
+figure {
+    border: 2px solid var(--accent1-color);
+    display: flex;
+    flex-flow: column;
+    padding: 2px;
+    max-width: 220px;
+  }
+
+figcaption {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    text-align: center;
+}
+
 footer {
     max-width: 1024px;
     margin: 1rem;
     border-top: 1px solid #000000;
     display: grid;
-    grid-template-columns: 1fr 20px;
+    grid-template-columns: 1fr 10px;
     grid-template-rows: 1fr;
-    padding: 2px;
-
 }
 
 footer, p, nav {
@@ -144,11 +155,11 @@ footer img {
     position: relative;
     top: -100px;
     grid-column: 2/3;
-    grid-row: 1;
+    grid-row: 1/2;
 }
 
 .p1-history {
-    grid-column: 0/1;
+    grid-column: 1/2;
     grid-row: 1/2;
 }
 
@@ -159,7 +170,7 @@ footer img {
 
 .history img {
     grid-column: 2/3;
-    grid-row: 1;
+    grid-row: 1/2;
     max-width: 150px;
 
 }
@@ -185,5 +196,6 @@ footer img {
 
 .sociallinks a:link, a:visited, a:active, a:hover {
     text-decoration: none;
+    margin: 2px;
 }
 
