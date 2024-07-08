@@ -51,7 +51,6 @@ figure {
     display: flex;
     flex-flow: column;
     padding: 2px;
-    max-width: 220px;
   }
 
 figcaption {
@@ -176,9 +175,10 @@ footer img {
 }
 
 .adventure {
+    max-width: 1024px;
+    margin: 0 auto;
     display: grid;
     align-items: center;
-    gap: 5px;
 }
 
 .adventure h2{
@@ -189,6 +189,8 @@ footer img {
 }
 
 .adventure img{
+    display: flex;
+    flex-wrap: nowrap;
     width: 150px;
     height: 100px;
 }
