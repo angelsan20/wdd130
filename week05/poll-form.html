@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Poll Form Practice Page | WDD 130</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+    <header>
+        <h1>User Poll Form Practice Page | WDD 130</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Fullname:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="useremail">Email:</label>
+                <input type="email" id="useremail" name="useremail">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite internet browser?</label><br>
+                <select name="browser" id="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="firefox">Firefox</option>
+                    <option value="opera">Opera</option>
+                    <option value="brave">Brave</option>
+                    <option value="safari">Safari</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <br>
+                <label for="pet">Do you have a household pet?</label><br>
+                <input type="checkbox" id="pet" name="pet"><br>
+                <br>
+                <label for="feedback">List the places you have lived:</label><br>
+                <textarea name="feedback" id="feedback" rows="4" cols="20" placeholder="Salt lake city Utah, Miami Florida, Valencia Venezuela"></textarea><br>
+                <button type="submit">Submit Poll</button>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 🛠 User Poll Form Practice Page 🛠 Angel Asdrubal Santafé Cárcamo | WDD 130</p>
+    </footer>
+    
+</body>
+</html>
