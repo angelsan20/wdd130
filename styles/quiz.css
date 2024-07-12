@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Maiden+Orange&display=swap');
+
+* {
+    font-family: 'Maiden Orange', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid #cfcfcf;
+    border-radius: 0.5rem;
+    background-color: #ebe5d4da;
+}
+
+form label {
+    display: block;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    text-align: center;
+    color: rgb(50, 110, 189);
+    text-decoration: underline;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+}
+
+span {
+    font: bold;
+}
+
+button {
+    width: 100%;
+    padding: 15px 10px;
+    background-color: rgb(50, 110, 189);
+    color: white;
+    margin: 15px 0;
+    border-radius: 1rem;
+    appearance: none;
+    border: none;
+}
+
+#q1, #q2, #q3, #q4 {
+    padding: 1rem;
+}
+
+footer {
+    margin: 1rem auto 10px;
+    width: 650px;
+    text-align: center;
+    font-size: 1rem;
+    color: #222222;
+    border-top: 1px solid #ccc;
+}
+
+.text-ilustration {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 1rem;
+    background-color: rgb(46, 46, 46);
+    padding: 0.7rem;
+    margin-bottom: 10px;
+    color: white;
+}
