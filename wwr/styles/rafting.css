@@ -78,6 +78,15 @@ footer img {
     margin: 5px;
 }
 
+iframe {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 0.6rem;
+    width: 700px;
+    height: 480px;
+}
+
 
 /* Class Selectors */
 
@@ -200,9 +209,17 @@ footer img {
     min-height: 100px;
 }
 
+.address {
+    border: 1px solid #000000;
+    border-radius: 0.6rem;
+    margin: 10px 30px;
+}
+
 
 .sociallinks a:link, a:visited, a:active, a:hover {
     text-decoration: none;
     margin: 2px;
 }
+
+
 
