@@ -87,8 +87,68 @@ iframe {
     height: 480px;
 }
 
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 1rem;
+    background-color: #eee;
+    display: grid;
+}
 
-/* Class Selectors */
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 1.5rem;
+
+}
+
+legend {
+    padding: 0.5rem;
+    color: navy;
+    font-size: 1.1em;
+}
+
+label, input, button, select, textarea {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 0.8em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: navy;
+    color: #ffffff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+
+/********* Class Selectors *********/
 
 
 .menu {
@@ -197,7 +257,7 @@ iframe {
 
 .adventure h2{
     display: flex;
-    grid-column: 1/6;
+    grid-column: 1/4;
     grid-row: 1/2;
     justify-content: center;
 }
@@ -205,8 +265,8 @@ iframe {
 .adventure img{
     display: flex;
     flex-wrap: nowrap;
-    max-width: 150px;
-    min-height: 100px;
+    max-width: 200px;
+    min-height: 150px;
 }
 
 .address {
@@ -215,6 +275,64 @@ iframe {
     margin: 10px 30px;
 }
 
+.employee {
+    margin: 0;
+    padding: 0;
+    max-width: 1024px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50px 1fr;
+    
+}
+
+.lori {
+    max-width: 250px;
+    grid-column: 1/2;
+    display: flex;
+    justify-content: center;
+}
+
+.jason {
+    grid-column: 2/3;
+}
+
+.gary {
+    grid-column: 3/4;
+}
+
+.employee h2 {
+    display: flex;
+    justify-content: center;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.employee img {
+    display: flex;
+    justify-content: space-around;
+    max-width: 250px;
+    height: 315px;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    display: flex;
+    justify-content: flex-start;
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    display: flex;
+    justify-content: flex-start;
+    grid-template-columns: 1fr 2fr;
+}
 
 .sociallinks a:link, a:visited, a:active, a:hover {
     text-decoration: none;
