@@ -349,5 +349,20 @@ button:hover {
     margin: 2px;
 }
 
+.wireframe-link {
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    background-color: #000000;
+    border-radius: .8rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.wireframe-link:hover {
+    background-color: rgb(0, 28, 187);
+    font-size: 25px;
+}
+
 
 
