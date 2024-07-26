@@ -3,16 +3,16 @@
 
 :root {
     --primary-color: rgb(255, 255, 255) ;
-    --secondary-color: rgb(65, 65, 65);
-    --accent1-color: rgb(165, 50, 50) ;
-    --accent2-color: rgb(219, 131, 58) ;
+    --secondary-color: rgb(36, 36, 36);
+    --accent1-color: rgb(0, 0, 0) ;
+    --accent2-color: rgb(45, 18, 143) ;
 
     --heading-font: "Peralta", serif;
     --paragraph-font: "Wellfleet", monospace;
 
     --nav-background-color: rgb(65, 65, 65);
-    --nav-link-color: rgb(219, 131, 58);
-    --nav-hover-link-color:  rgb(165, 50, 50);
+    --nav-link-color: rgb(167, 102, 48);
+    --nav-hover-link-color:  rgb(0, 0, 0);
     --nav-hover-background-color: rgb(255, 255, 255);
 }
 
@@ -28,7 +28,7 @@ header {
     grid-template-columns: 160px 1fr;
     grid-template-rows: 1fr;
     font-family: var(--heading-font);
-    background-color: rgba(65, 65, 65, 0.6);
+    background-color: rgba(66, 66, 66, 0.6);
     border-top-right-radius: 1.5rem;
     border-top-left-radius: 1.5rem;
     border-bottom: 3px solid rgb(65, 65, 65);
@@ -215,18 +215,12 @@ tr {
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    -webkit-text-stroke: 0.1px var(--primary-color);
     letter-spacing: 1px;
 }
 
 .menu a:hover, .wireframe-link:hover {
     background-color: var(--nav-hover-background-color);
     color: var(--nav-hover-link-color);
-    -webkit-text-stroke: 0px transparent;
-}
-
-.wireframe-link {
-    -webkit-text-stroke: 0.5px var(--primary-color);
 }
 
 .hero {
@@ -247,11 +241,10 @@ tr {
 .hero h1 {
 	position: absolute;
 	top: 10px;
-    background-color: rgba(65, 65, 65, 0.6);
+    background-color: rgba(226, 226, 226, 0.6);
     width: 1024px;
     text-align: center;
     color: var(--accent1-color);
-    -webkit-text-stroke: 0.1px var(--primary-color);
 }
 
 .hero article {
@@ -295,12 +288,11 @@ tr {
 .contact-invite h2 {
     position: absolute;
 	top: 10px;
-    background-color: rgba(65, 65, 65, 0.8);
+    background-color: rgba(240, 240, 240, 0.8);
     text-align: center;
     font-size: 30px;
     font-weight: bold;
     color: var(--accent1-color);
-    -webkit-text-stroke: 0.1px var(--primary-color);
 }
 
 .contact-invite img {
@@ -402,10 +394,13 @@ tr {
     border-bottom-left-radius: 0.6rem;
     border-bottom-right-radius: 0.6rem;
     margin: 0 20px 10px 20px;
-    background-color: rgba(65, 65, 65, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     text-align: center;
     font-size: 20px;
-    -webkit-text-stroke: 0.1px var(--primary-color);
+}
+
+.address h1 {
+    background-color: rgba(240, 240, 240, 0.8);
 }
 
 .employee {
@@ -413,7 +408,7 @@ tr {
     padding: 0;
     max-width: 1024px;
     display: grid;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: repeat(3, auto);
     grid-template-rows: 50px 1fr;
     
 }
