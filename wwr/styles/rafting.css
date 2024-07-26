@@ -420,8 +420,8 @@ tr {
 
 .trips {
     display: grid;
-    grid-template-columns: repeat(3 auto);
-    grid-template-rows: repeat(3 auto);
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
 }
 
 .trips h2 {
