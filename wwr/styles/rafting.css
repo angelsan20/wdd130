@@ -241,7 +241,7 @@ tr {
 .hero h1 {
 	position: absolute;
 	top: 10px;
-    background-color: rgba(226, 226, 226, 0.6);
+    background-color: rgba(226, 226, 226, 0.815);
     width: 1024px;
     text-align: center;
     color: var(--accent1-color);
