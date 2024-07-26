@@ -298,16 +298,17 @@ tr {
 }
 
 .history {
+    margin: 10px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 30px;
+    grid-template-rows: 3px 1fr;
     justify-items: center;
     align-items: center;
 }
 
 .history h2 {
     position: relative;
-    top: -100px;
+    top: 10px;
     grid-column: 2/3;
     grid-row: 1/2;
 }
