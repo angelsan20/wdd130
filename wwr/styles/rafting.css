@@ -70,6 +70,7 @@ article {
 }
 
 figure {
+    max-width: fit-content;
     border: 2px solid transparent;
     display: flex;
     flex-flow: column;
